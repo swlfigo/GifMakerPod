@@ -16,8 +16,20 @@ CHDeclareClass(PayTool);
 CHClassMethod0(BOOL, PayTool, didSuccessBuyPro){
     return YES;
 }
+CHClassMethod0(BOOL, PayTool, didSuccessUnlockFilter){
+    return YES;
+}
+CHClassMethod0(BOOL, PayTool, didSuccessClearAD){
+    return YES;
+}
+CHClassMethod0(BOOL, PayTool, didSuccessClearWaterMark){
+    return YES;
+}
 
 CHConstructor{
     CHLoadLateClass(PayTool);
     CHHook0(PayTool, didSuccessBuyPro);
+    CHHook0(PayTool, didSuccessUnlockFilter);
+    CHHook0(PayTool, didSuccessClearAD);
+    CHHook0(PayTool, didSuccessClearWaterMark);
 }
