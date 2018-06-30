@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CECB76D20E740A50062A2AC /* GifMakerPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CECB76C20E740A50062A2AC /* GifMakerPod.m */; };
 		2CECB77120E740A50062A2AC /* GifMakerPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CECB76B20E740A50062A2AC /* GifMakerPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CECB77820E744280062A2AC /* GifMakerPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2CECB77720E744270062A2AC /* GifMakerPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		2CECB76B20E740A50062A2AC /* GifMakerPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GifMakerPod.h; sourceTree = "<group>"; };
 		2CECB76C20E740A50062A2AC /* GifMakerPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifMakerPod.m; sourceTree = "<group>"; };
 		2CECB77020E740A50062A2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CECB77720E744270062A2AC /* GifMakerPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GifMakerPod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 		2CECB75E20E740A50062A2AC = {
 			isa = PBXGroup;
 			children = (
+				2CECB77720E744270062A2AC /* GifMakerPod.podspec */,
 				2CECB76A20E740A50062A2AC /* GifMakerPod */,
 				2CECB76920E740A50062A2AC /* Products */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CECB77820E744280062A2AC /* GifMakerPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
